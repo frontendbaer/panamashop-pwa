@@ -3,8 +3,9 @@ name: Deploy PWA
 on:
   # release:
   #   types: [published]
-  # push:
-  #   branches: [main]
+   push:
+     branches: 
+      - main
   workflow_dispatch:
     inputs:
       tag-version:
