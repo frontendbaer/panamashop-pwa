@@ -1,10 +1,10 @@
 name: Deploy PWA
 
 on:
-  # release:
-  #   types: [published]
-  # push:
-  #   branches: [main]
+   release:
+     types: [published]
+   push:
+     branches: [main]
   workflow_dispatch:
     inputs:
       tag-version:
